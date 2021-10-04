@@ -39,8 +39,6 @@ body {
 
 /* ----- SOCIAL PROOF ------ */
 .social-proof {
-    /* margin: 5.6em 1.5em; */
-    /* width: min(21.65em, 60%); */
     width: 75%;
     min-width: 21.65em;
     margin: 5.6em auto;
@@ -55,6 +53,7 @@ body {
 .intro__heading {
     color: var(--clr-primary-600);
     font-size: 2em;
+    font-weight: 700;
     line-height: 1em;
     margin-bottom: 0.95em;
 }
@@ -84,7 +83,6 @@ body {
 }
 
 .star-rating__stars {
-    /* background-color: #ccc; */
     display: flex;
     justify-content: space-between;
     width: 7.5em;
@@ -155,7 +153,6 @@ body {
     }
 }
 
-/* @media screen and (min-width: 96em) { */
 @media screen and (min-width: 90em) {
     body {
         background-attachment: scroll, fixed;
@@ -247,7 +244,6 @@ body {
     .review {
         display: flex;
         margin-bottom: 0em;
-        /* width: 31.5%; */
         width: 22.7em;
         min-width: 31.5%;
     }
